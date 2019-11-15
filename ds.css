@@ -1,0 +1,104 @@
+body{
+  font-family: arial;
+  margin: 0px;
+  background-image: url("https://images6.alphacoders.com/376/thumb-1920-376931.jpg");
+  background-size: cover;
+
+}
+
+nav{
+  display: flex;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 70px;
+  background: rgba(0, 0, 0, 0.6);
+  padding: 0 100px;
+  box-sizing: border-box;
+}
+
+nav.brand{
+  float: left;
+  height: 100%;
+  line-height: 70px;
+}
+
+
+h1{
+  color: #fff;
+}
+
+nav ul{
+  float: left;
+  justify-content: space-around;
+  display: flex;
+  margin: 0;
+  padding: 0;
+
+}
+
+nav ul li{
+  list-style: none;
+  float: left;
+}
+
+nav ul li a{
+  height:70px;
+  line-height: 70px;
+  padding: 0 20px;
+  color: #fff;
+  text-decoration: none;
+  transition: 0.5s;
+
+}
+
+.active{
+  background-color: #045a8c;
+  color: white;
+}
+
+nav a:hover:not(.active){
+  background-color: black;
+  color: white;
+  opacity: 1;
+}
+
+/*
+nav{
+  margin: 0px;
+  font-size: 20px;
+  background-color: white;
+}
+
+main{
+  width: 900px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+header{
+  display: flex;
+  justify-content: space-between;
+  color: #045a8c;
+  background-color: white;
+  box-shadow: 5px 5px 50px;
+}
+a{
+  float: right;
+}
+
+nav a{
+  text-decoration: none;
+  color: black;
+  padding: 15px 47px;
+  border-left: solid black 0.1px;
+}
+
+
+
+nav a:hover{
+  padding-top: 40px;
+  padding-bottom: 40px;
+  transition: 0.5s;
+}
+*/

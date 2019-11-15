@@ -1,0 +1,315 @@
+body{
+  font-family: sans-serif;
+  margin: 0px;
+  padding: 0;
+  background-image: url("http://hdqwalls.com/wallpapers/dark-blur-abstract-4k-v3.jpg");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+
+nav{
+  margin: 0px;
+  font-size: 20px;
+}
+
+header{
+  display: flex;
+  justify-content: space-between;
+  color: #fff;
+  position: fixed;
+  top: 0;
+  z-index: 2;
+  padding-right: 10px;
+  width: 100%;
+  background: rgba(0, 0, 0, 0.6);
+  box-shadow: 0px 25px 60px rgba(0, 0, 0, 0.8);
+}
+
+
+#h1{
+  font-size: 23px;
+  letter-spacing: 10px;
+  padding-left: 18px;
+  padding-right: 12px;
+  color: #ffc494;
+  text-decoration: none;
+  padding-top: 15px;
+  padding-left: 40px;
+}
+
+#h1:hover{
+  letter-spacing: 13px;
+  transition-duration: 0.3s;
+}
+
+nav a{
+  text-decoration: none;
+  display: flex;
+  color: #ffc494;
+  padding: 18px 40px;
+  border-left: solid #52e5f2 0.1px;
+  float: right;
+}
+
+.active{
+  background-color: #72ecf7;
+  color: rgba(0, 0, 0, 0.6);
+  letter-spacing: 1px;
+}
+
+nav a:hover:not(.active){
+  background-color: #ffc494;
+  color: rgba(0, 0, 0, 0.6);
+  transition: 0.3s;
+  letter-spacing: 1px;
+}
+
+.overskrift{
+  text-align: center;
+  position: fixed;
+  z-index: -2;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 70%;
+  top: 0;
+}
+
+.overskrift h4{
+  font-size: 90px;
+  letter-spacing: 30px;
+  color: #ffc494;
+  text-shadow: 0px 25px 60px rgba(0, 0, 0, 0.8);
+
+}
+
+#def{
+  font-size: 15px;
+  color: #72ecf7;
+  letter-spacing: 2px;
+  text-shadow: 0px 25px 60px rgba(0, 0, 0, 0.8);
+
+}
+
+.forside{
+
+  color: #fff;
+  font-size: 19px;
+  line-height: 26px;
+  padding-bottom: 60px;
+  margin-top: 100px;
+
+}
+
+.forside1{
+
+  color: #fff;
+  font-size: 19px;
+  line-height: 26px;
+  padding-bottom: 60px;
+  margin-top: 600px;
+}
+
+
+.grid-sec{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-column-gap: 10px;
+  grid-row-gap: 40px;
+  box-shadow: 0px 25px 60px rgba(0, 0, 0, 0.8);
+  background-image: url("http://papers.co/wallpaper/papers.co-sk52-sunset-dark-blur-gradation-36-3840x2400-4k-wallpaper.jpg");
+  background-attachment: fixed;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.grid-sec p{
+  padding-right: 30px;
+  padding-left: 30px;
+  line-height: 27px;
+}
+
+h5{
+  padding-left: 30px;
+  font-size: 55px;
+  font-weight: bold;
+  color: #72ecf7;
+}
+
+h6{
+  padding-left: 30px;
+  font-size: 30px;
+  font-weight: bold;
+  color: #72ecf7;
+  margin-top: 15px;
+}
+
+.grid-e{
+  max-height: 370px;
+}
+
+.grid-e a{
+  text-decoration: none;
+  color: #ffc494;
+  font-size: 25px;
+  line-height: 30px;
+}
+
+img{
+  width: 100%;
+}
+
+.span-2{
+  grid-column: 2 /span 2;
+}
+
+.span-3{
+  grid-column: 1 /span 3;
+}
+
+
+
+.stretch{
+  height: 700px;
+  grid-area: span 2/ span 2;
+  opacity: 80%;
+}
+
+.bunntekst{
+  text-align: center;
+  background-color: rgba(0, 0, 0, 0.6);
+  box-shadow: 0px 25px 60px rgba(0, 0, 0, 0.8);
+  margin-bottom: 0px;
+  margin-top: 0;
+  padding: 20px;
+  color: #ffc494;
+}
+
+.grid-sec2{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  background: rgba(0, 0, 0, 0.6);
+  box-shadow: 0px 25px 60px rgba(0, 0, 0, 0.8);
+}
+
+.grid-e2{
+  grid-column: 2/ span 2;
+  padding-right: 50px;
+  padding-top: 15px;
+  padding-bottom: 10px;
+  padding-left: 40px;
+}
+
+.grid-e3{
+  grid-column: 1/ span 2;
+  padding-left: 50px;
+  padding-top: 65px;
+  padding-bottom: 60px;
+}
+
+.grid-e1{
+  opacity: 85%;
+  width: 100%;
+  object-fit: cover;
+  height: 720px;
+}
+h2{
+  padding-bottom: 15px;
+  border-right: solid #72ecf7 1px;
+}
+
+.bilde2{
+  object-fit: cover;
+  width: 450px;
+  height: 100%;
+  padding-top: 0px;
+  padding-left: 40px;
+}
+
+.grid-sec2 p::first-letter{
+  font-size: 2.9em;
+  margin-top: .15em;
+  color: #ff8045;
+  float: left;
+}
+
+.link{
+  color: #fff;
+}
+
+.link:hover{
+  color: #ff8045;
+}
+
+.link2{
+  color: #ffc494;
+}
+
+.link2:hover{
+  color: #ff8045;
+}
+
+.video{
+  width: 100%;
+  box-shadow: 0px 25px 60px rgba(0, 0, 0, 0.8);
+}
+
+.introdata{
+  color: white;
+  margin-top: 100px;
+  text-align: center;
+  grid-column: 1/ span 3;
+  position: fixed;
+  z-index: -2;
+  width: 700px;
+  left: 50%;
+  transform: translatex(-50%);
+}
+
+.grid-sec3{
+  padding-top: 600px;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-column-gap: 0px;
+  grid-row-gap: 0px;
+  box-shadow: 0px 25px 60px rgba(0, 0, 0, 0.8);
+}
+
+.grid-sec3 .left{
+  grid-column: 1/span 2;
+  object-fit: cover;
+  height: 340px;
+}
+.grid-sec3 .right{
+  grid-column: 2/span 2;
+  object-fit: cover;
+  height: 340px;
+}
+
+.grid-sec3 .gr{
+  border-bottom: solid rgba(0, 0, 0, 0.6) 5px;
+  background-image: url("http://hdqwalls.com/wallpapers/dark-minimalist-blur-4k-4o.jpg");
+  background-attachment: fixed;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.grid-sec3 div{
+  padding-left: 30px;
+  padding-right: 30px;
+  color: #fff;
+  font-size: 19px;
+  align-self: stretch;
+}
+
+.grid-sec3 .gr h1{
+  border-bottom: solid 1px rgba(0, 0, 0, 0.6);
+}
+
+.kilder{
+  grid-column: 1 /span 3;
+  text-align: center;
+  padding-top: 40px;
+  padding-bottom: 50px;
+}
